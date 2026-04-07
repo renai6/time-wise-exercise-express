@@ -35,14 +35,14 @@ Vue
 
 1. Create the database and table:
 
-   `CREATE DATABASE notes_app;
+   ```CREATE DATABASE notes_app;
 
    USE notes_app;
 
    CREATE TABLE notes (
    id VARCHAR(36) PRIMARY KEY,
    content TEXT NOT NULL
-   );`
+   );```
 
 2. Install Packages
    
